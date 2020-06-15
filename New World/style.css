@@ -1,0 +1,146 @@
+
+@media screen and (min-width: 1020px) {
+  body {
+    background-color: #9FD6DD;
+  }
+}
+@media screen and (max-width: 1019px) {
+  body {
+    background-color: #9FD6DD;
+  }
+}
+body{
+  background-image: url(wallpaper.svg);
+  background-size: cover;
+
+}
+
+img {
+  width: 257px;
+  height: 76px;
+  position: relative;
+  top: -15px;
+  left:40px;
+}
+
+a {
+  margin-left: 650px;
+  font-family: nunito, sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  color: #145B65;
+  text-decoration: none;
+  position: relative;
+  top:50px;
+}
+
+a:hover{
+  color: #D76464;
+  transition: 0.5s;
+}
+
+#login {
+  width: 125px;
+  height: 50px;
+  background-color: #FFFF;
+    border-radius: 35px;
+    border: 0.5px; solid;
+    transition: background-color 0.5s;
+    font-family: nunito, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    position: relative;
+    top:50px;
+    box-shadow: 0px 14px 13px -15px rgba(0,0,0,0.75);
+  }
+
+#login:hover {
+    background-color: #D76464;
+    transition: 0.5s;
+  }
+
+#signup {
+    width: 125px;
+    height: 50px;
+    background-color: #29CCE2;
+    border-radius: 35px;
+    border: 2px; solid;
+    transition: background-color 0.5s;
+    font-family: nunito, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    position: relative;
+    top:50px;
+    box-shadow: 0px 14px 13px -15px rgba(0,0,0,0.75);
+  }
+
+#signup:hover {
+      background-color: #D76464;
+      transition: 0.5s;
+    }
+
+h1{
+  font-family: nunito, sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700px;
+  color: white;
+  margin-left: 76px;
+  margin-top: 100px;
+}
+
+p {
+  font-family: nunito, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600px;
+  color: black;
+  position: absolute;
+  width: 440px;
+  height: 82px;
+  left: 85px;
+  top: 341px;
+}
+
+#email {
+  font-family: nunito,sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  position: absolute;
+  width: 380px;
+  height: 53px;
+  left: 85px;
+  top: 475px;
+  background: #FFFFFF;
+  border-radius: 30px;
+  border: 2px;
+  font-size:15px;
+  padding-left:20px;
+  box-shadow: 0px 14px 13px -15px rgba(0,0,0,0.75);
+}
+
+#getstartednow {
+  font-family: nunito,sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  position: absolute;
+  width: 170px;
+  height: 53px;
+  left: 509px;
+  top: 475px;
+  background: #29CCE2;
+  border-radius: 30px;
+  border: none;
+  font-size:15px;
+  text-align:center;
+  box-shadow: 0px 14px 13px -15px rgba(0,0,0,0.75);
+}
+
+#getstartednow:hover {
+  background-color: #D76464;
+  transition: 0.5s;
+}
